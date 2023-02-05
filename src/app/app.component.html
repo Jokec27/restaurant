@@ -1,18 +1,18 @@
 <nav class="flex items-center justify-between font-sans text-lg font-bold h-24 bg-black/90">
       <div class="flex items-center space-x-10 px-14">
-        <a class="text-white cursor-pointer hover:text-yellow-500">
+        <a routerLink="/home" class="text-white cursor-pointer hover:text-yellow-500">
           Főodal
         </a>
-        <a class="text-white cursor-pointer hover:text-yellow-500">
+        <a routerLink="/heti-menu" class="text-white cursor-pointer hover:text-yellow-500">
           Menü
         </a>
-        <a class="text-white cursor-pointer hover:text-yellow-500">
+        <a routerLink="/etlap" class="text-white cursor-pointer hover:text-yellow-500">
           Étlap
         </a>
-        <a class="text-white cursor-pointer hover:text-yellow-500">
+        <a routerLink="/rolunk" class="text-white cursor-pointer hover:text-yellow-500">
           Rólunk
         </a>
-        <a class="text-white cursor-pointer hover:text-yellow-500">
+        <a routerLink="/kapcsolat" class="text-white cursor-pointer hover:text-yellow-500">
           Kapcsolat
         </a>
       </div>
@@ -23,6 +23,4 @@
       </div>
 </nav>
 
-<div class="">
-  <router-outlet></router-outlet>
-</div>
+<router-outlet></router-outlet>

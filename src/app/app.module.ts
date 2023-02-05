@@ -15,6 +15,10 @@ import { MeatlessMealsComponent } from './meatless-meals/meatless-meals.componen
 import { GyrosComponent } from './gyros/gyros.component';
 import { AlcoholfreeDrinksComponent } from './alcoholfree-drinks/alcoholfree-drinks.component';
 import { AlcoholicDrinksComponent } from './alcoholic-drinks/alcoholic-drinks.component';
+import { WeekMenuComponent } from './week-menu/week-menu.component';
+import { MenuComponent } from './menu/menu.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { RelationComponent } from './relation/relation.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,11 @@ import { AlcoholicDrinksComponent } from './alcoholic-drinks/alcoholic-drinks.co
     MeatlessMealsComponent,
     GyrosComponent,
     AlcoholfreeDrinksComponent,
-    AlcoholicDrinksComponent
+    AlcoholicDrinksComponent,
+    WeekMenuComponent,
+    MenuComponent,
+    AboutUsComponent,
+    RelationComponent
   ],
   imports: [
     BrowserModule,
